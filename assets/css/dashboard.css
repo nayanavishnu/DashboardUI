@@ -19,7 +19,7 @@ header .login-info
     justify-content: space-between;
     align-items: center;
     padding-right: 40px;
-    width: 25%;
+    min-width: 25%;
 }
 header .login-info .logout-line{
     border-left: 1px solid #8CA0CD;
@@ -117,7 +117,7 @@ display: flex;
     line-height: 1;
 }
 .container-fluid .dashboard-container .table-container .card i{    
-    font-size: 106px;
+    font-size: 7vw;
 }
 .container-fluid .dashboard-container .table-container .card .summary-container{
     display: flex;
@@ -125,7 +125,7 @@ display: flex;
     align-self: flex-end;
 }
 .container-fluid .dashboard-container .table-container .card .summary-container .percentage{
-    font-size: 55px;
+    font-size: 3vw;
     font-weight: bold;
 }
 .container-fluid .dashboard-container .table-container .card .summary-container .summary{
