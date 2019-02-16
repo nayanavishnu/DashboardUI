@@ -1,0 +1,153 @@
+header {
+    width: 100%;
+    height: 70px;   
+    background-image: linear-gradient(to right, #082456 , #1044AA);
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-between;
+}
+header .logo img{
+    height: 60%;    
+    margin-top: 14px;
+    margin-left: 20px;
+}
+header .login-info
+{
+    color: #E8E8E8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 40px;
+    width: 25%;
+}
+header .login-info .logout-line{
+    border-left: 1px solid #8CA0CD;
+    height: 100%;
+}
+header .login-info .welcome .welcome-span{
+    color: #8CA0CD;
+    font-weight: 500;
+    font-size: 14px;
+    margin-right: 6px;
+}
+header .login-info .welcome .name{
+    font-weight: 700;
+    font-size: 16px;
+}
+header .login-info .logout{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    font-size: 12px;
+}
+header .login-info .logout i{
+    font-size: 28px;
+    color: #8CA0CD;
+    margin-right: 25px;
+}
+.container-fluid{
+height: 700px;
+padding: 0px;
+display: flex;
+}
+.container-fluid .side-menu{
+    width: 270px;
+    height: 100%;   
+}
+.container-fluid .side-menu .list-group .list-group-item 
+{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.container-fluid .side-menu .list-group .list-group-item i{
+    font-size: 28px;
+    color: #c8c0c0;
+}
+.container-fluid .side-menu .list-group .list-group-item span{
+    color: #909090;
+    font-weight: 700;
+    font-size: 13px;
+    padding-left: 15px
+}
+
+.container-fluid .dashboard-container{
+    width: calc(100% - 250px);
+    height: 100%;  
+}
+.container-fluid .dashboard-container .action-container{
+    height: 70px;
+    background-color: #F7F7F7;
+    padding-right: 35px;
+    padding-left: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-fluid .dashboard-container .action-container span{
+    font-weight: bold;
+    color: #1D3057;
+    font-size: 18px;
+}
+.container-fluid .dashboard-container .action-container .btn-container button
+{
+    background-color: #0F43A9;
+    font-size: 15px;
+    padding: 8px 25px 8px 25px;
+    font-weight: 600;
+    color:#E8E8E8;
+}
+.container-fluid .dashboard-container .table-container{
+    background-color: #E7E7E7;
+    height: calc(100% - 70px);
+    padding-right: 35px;
+    padding-left: 35px;
+    padding-top: 30px;
+}
+.container-fluid .dashboard-container .table-container .card{    
+    height: 150px;   
+    padding: 20px;  
+    flex-direction: row;
+    justify-content: space-between;
+    color: #fff;
+    border: none;   
+    line-height: 1;
+}
+.container-fluid .dashboard-container .table-container .card i{    
+    font-size: 106px;
+}
+.container-fluid .dashboard-container .table-container .card .summary-container{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+}
+.container-fluid .dashboard-container .table-container .card .summary-container .percentage{
+    font-size: 55px;
+    font-weight: bold;
+}
+.container-fluid .dashboard-container .table-container .card .summary-container .summary{
+
+}
+.blue{
+   background-color: #3783D7;
+}
+.violet{
+    background-color: #7E58BD;
+}
+.purple{
+background-color: #D988D4;
+}
+
+.pink{
+background-color: #DE5383;
+}
+.container-fluid .dashboard-container .table-container .row .table-div{
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 30px;
+    height: auto;
+}
